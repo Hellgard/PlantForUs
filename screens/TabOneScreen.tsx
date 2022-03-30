@@ -54,26 +54,25 @@ const styles = StyleSheet.create({
   logo: {
     height: 100,
     width: 250,
-    marginLeft: 10,
-    marginTop: 20,
+    alignSelf: 'center',
   },
   logo2: {
     height: '15%',
     width: 230,
-    marginLeft: 460,
-    marginBottom: 35,
-
+    marginTop: 30,
+    marginBottom: 20,
+    alignSelf: 'center',
   },
   logo3: {
     height: 220,
     width: 250,
-    marginLeft: "18%",
+    alignSelf: 'center',
     marginTop: 25,
   },
   logo4: {
     height: '15%',
     width: 250,
-    marginLeft: '35%',
+    alignSelf: 'center',
     marginTop: 20,
   },
   title: {
@@ -85,7 +84,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
     fontSize: 20,
     fontWeight: 'bold',
-    marginLeft: '30%',
+    alignSelf: 'center',
   },
   title3: {
     color: 'black',
@@ -93,17 +92,19 @@ const styles = StyleSheet.create({
     marginBottom: 40,
     fontSize: 10,
     fontWeight: 'bold',
+    alignSelf: 'center',
   },
   title4: {
     color: 'black',
     marginTop: 20,
     fontSize: 10,
     fontWeight: 'bold',
+    alignSelf: 'center',
   },
   title5: {
     color: 'black',
     marginTop: 40,
-    marginLeft: '38%',
+    alignSelf: 'center',
     fontSize: 12,
     fontWeight: 'bold',
   },

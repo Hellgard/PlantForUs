@@ -40,9 +40,9 @@ function RootNavigator() {
     <Stack.Navigator>
       <Stack.Screen name="Root" component={BottomTabNavigator} options={{ headerShown: false }} />
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
-      <Stack.Group screenOptions={{ presentation: 'modal' }}>
-        <Stack.Screen name="Manual" component={ModalScreen} />
-      </Stack.Group>
+      {/* <Stack.Group screenOptions={{ presentation: 'modal' }}>
+        <Stack.Screen name="Manual" component={ModalScreen} /> 
+      </Stack.Group> */}
     </Stack.Navigator>
   );
 }
@@ -65,24 +65,24 @@ function BottomTabNavigator() {
       <BottomTab.Screen
         name="Menu"
         component={TabOneScreen}
-        options={({ navigation }: RootTabScreenProps<'Menu'>) => ({
-          title: 'Menu',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-          headerRight: () => (
-            <Pressable
-              onPress={() => navigation.navigate('Manual')}
-              style={({ pressed }) => ({
-                opacity: pressed ? 0.5 : 1,
-              })}>
-              <FontAwesome
-                name="info-circle"
-                size={25}
-                color={Colors[colorScheme].text}
-                style={{ marginRight: 15 }}
-              />
-            </Pressable>
-          ),
-        })}
+        // options={({ navigation }: RootTabScreenProps<'Menu'>) => ({
+        //   title: 'Menu',
+        //   tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+        //   headerRight: () => (
+        //     // <Pressable
+        //     //   onPress={() => navigation.navigate('Manual')}
+        //     //   style={({ pressed }) => ({
+        //     //     opacity: pressed ? 0.5 : 1,
+        //     //   })}>
+        //     //   <FontAwesome
+        //     //     name="info-circle"
+        //     //     size={25}
+        //     //     color={Colors[colorScheme].text}
+        //     //     style={{ marginRight: 15 }}
+        //     //   />
+        //     // </Pressable>
+        //   ),
+        // })}
       />
       <BottomTab.Screen
         name="About us"
