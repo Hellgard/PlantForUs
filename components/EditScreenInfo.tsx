@@ -58,9 +58,11 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   homeScreenFilename: {
+    backgroundColor: 'white',
     marginVertical: 7,
   },
   codeHighlightContainer: {
+    backgroundColor: 'white',
     borderRadius: 3,
     paddingHorizontal: 4,
   },
