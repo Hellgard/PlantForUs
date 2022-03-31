@@ -12,15 +12,15 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
       <ScrollView>
         <Text style={styles.getStartedText} lightColor="rgba(0,0,0,0.8)" darkColor="rgba(255,255,255,0.8)"> What is the goal of this project ?
         </Text>
-          <EditScreenInfo path="For all event  organizers concerned 
+          {/* <EditScreenInfo path="For all event  organizers concerned 
           about their community's ecological impact, PLANT A is a 
           sustainable  water provider that produces single use cans that are
-          not only biodegradable but also plant a flower every time it is thrown out."/>
+          not only biodegradable but also plant a flower every time it is thrown out."/> */}
           <Image style={styles.logo2} source={require('../assets/images/index.png')} />
-          <EditScreenInfo path="More than water, Plant-A is your favorite event sponsor
+          {/* <EditScreenInfo path="More than water, Plant-A is your favorite event sponsor
           Acting as distributors, we offer 2 alternatives:
           - providing all the information for recycling the bottles
-          - we come pick up the bottles and take them to our trusted partners" />
+          - we come pick up the bottles and take them to our trusted partners" /> */}
           <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
           <MonoText style={styles.getStartedText}>How it works</MonoText>
           <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
