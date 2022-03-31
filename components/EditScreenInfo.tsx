@@ -9,10 +9,10 @@ export default function EditScreenInfo({ path }: { path: string }) {
   return (
     <View>
       <View style={styles.getStartedContainer}>
-        <View
+        {/* <View
           style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
           <MonoText style={styles.getStartedText}>{path}</MonoText>
-        </View>
+        </View> */}
 
          {/*
         <Text
