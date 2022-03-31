@@ -10,7 +10,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
     <View>
       <View style={styles.getStartedContainer}>
         <View
-          style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
+          style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
           <MonoText style={styles.getStartedText}>{path}</MonoText>
         </View>
 
